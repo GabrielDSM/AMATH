@@ -50,9 +50,9 @@ save('A9.dat', 'A9', '-ascii');
 %(j)
 A10 = C*D;
 save('A10.dat', 'A10', '-ascii');
-
 %The answers to (g) and (h) are different because in matrix multiplicatiothe order matters. By 
 %reversing the order you are changing which components are being multiplied to one another.
+
 
 %(k)
 A11 = C(:,2);
@@ -98,5 +98,3 @@ x4 = x4 - sum;
 A14 = [x1;x2;x3;x4];
 save('A14.dat', 'A14', '-ascii');
 
-%Not certain as to how the numbers are stored differently such that it causes a difference between
-%x1, x2, x3, & x4.
